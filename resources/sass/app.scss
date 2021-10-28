@@ -1,0 +1,25 @@
+//
+body, .cards, .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    flex-direction: column;
+
+    .cards {
+        flex-wrap: wrap;
+
+        .card {
+            padding: 10px;
+            flex-direction: column;
+            margin: 10px;
+            background-color: antiquewhite;
+            border-radius: 10px;
+        }
+    }
+
+}
+
+
